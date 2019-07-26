@@ -10,6 +10,7 @@ Based on [gcc](gcc.gnu.org) and [binutils](https://www.gnu.org/software/binutils
 |--|--|--|--|--|--|
 | [aarch64-unknown-linux-gnu](https://github.com/thinkski/toolchains/releases/download/8.3.0/aarch64-unknown-linux-gnu.tar.xz) | 8.3.0 | 8.2.1 | 4.20.8 | 2.29 | 2.32 |
 | [arm-unknown-linux-gnueabi](https://github.com/thinkski/toolchains/releases/download/8.3.0/arm-unknown-linux-gnueabi.tar.xz) | 8.3.0 | 8.2.1 | 4.20.8 | 2.29 | 2.32 |
+| [armv8-rpi3-linux-gnueabihf](https://github.com/thinkski/toolchains/releases/download/8.3.0/armv8-rpi3-linux-gnueabihf.tar.xz) | 8.3.0 | 8.2.1 | 4.20.8 | 2.29 | 2.32 |
 
 ## Support or Contact
 
