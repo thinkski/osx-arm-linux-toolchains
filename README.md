@@ -8,7 +8,8 @@ Based on [gcc](gcc.gnu.org) and [binutils](https://www.gnu.org/software/binutils
 
 | Toolchain | GCC | GDB | Linux headers | glibc | binutils |
 |--|--|--|--|--|--|
-| [arm-unknown-linux-gnueabi](https://github.com/thinkski/toolchains/releases/download/armv5-eabi--glibc--stable-2019.07-1/armv5-eabi--glibc--stable-2019.07-1.tar.xz) | 8.3.0 | 8.2.1 | 4.20.8 | 2.29 | 2.32 |
+| [aarch64-unknown-linux-gnu](https://github.com/thinkski/toolchains/releases/download/8.3.0/aarch64-unknown-linux-gnu.tar.xz) | 8.3.0 | 8.2.1 | 4.20.8 | 2.29 | 2.32 |
+| [arm-unknown-linux-gnueabi](https://github.com/thinkski/toolchains/releases/download/8.3.0/arm-unknown-linux-gnueabi.tar.xz) | 8.3.0 | 8.2.1 | 4.20.8 | 2.29 | 2.32 |
 
 ## Support or Contact
 
