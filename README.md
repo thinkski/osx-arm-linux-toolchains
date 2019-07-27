@@ -1,6 +1,4 @@
-## About
-
-Compiling cross-compilation toolchains is a tedious, time-consuming process. This site provides a small number of ready-to-use cross-compilation toolchains for Mac OS X, targetting the Linux operating system on a small number of architectures, currently `arm` and `aarch64`.
+Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`.
 
 Based on [gcc](gcc.gnu.org) and [binutils](https://www.gnu.org/software/binutils/), toolchains are provided currently in one variant, namely [glibc](https://www.gnu.org/software/libc/), with support for [uClibc-ng](https://uclibc-ng.org/) and [musl](http://www.musl-libc.org/) possible in the future if there is interest. The toolchains are built using the [crosstools-ng](https://crosstool-ng.github.io/) build system.
 
