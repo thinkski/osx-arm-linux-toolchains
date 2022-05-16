@@ -11,6 +11,12 @@ Based on [gcc](gcc.gnu.org) and [binutils](https://www.gnu.org/software/binutils
 | [armv8-rpi3-linux-gnueabihf](https://github.com/thinkski/osx-arm-linux-toolchains/releases/download/8.3.0/armv8-rpi3-linux-gnueabihf.tar.xz) | 8.3.0 | 8.2.1 | 4.20.8 | 2.29 | 2.32 |
 | [arm-unknown-linux-gnueabihf](https://github.com/thinkski/osx-arm-linux-toolchains/releases/download/8.3.0/arm-unknown-linux-gnueabihf.tar.xz) | 8.3.0 | 8.2.1 | 4.20.8 | 2.28 | 2.32 |
 
+## Code Signing
+
+On Catalina and later, executables need to be code-signed. This can be done via:
+
+    find /path/to/installation/directory -executable | xargs -n1 sudo codesign --force --deep --sign -
+
 ## Support or Contact
 
 If you find a problem or would like to see support for a new architecture or component combination, please [file an issue](https://github.com/thinkski/osx-arm-linux-toolchains/issues).
